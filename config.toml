@@ -1,3 +1,81 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://myxbox.network"
+languageCode = "de-de"
+# title = "MyXbox.Network - Your premium data analyser"
+title = "MyXbox.Network"
+theme = "hugo-assembly"
+
+# Metadata
+[params]
+author = "Huskynarr"
+description = "The Premium Data Analyser - Analysis and processing of data from the Xbox network"
+
+# banner section (from here on is for assembly theme)
+[params.banner]
+title = "The Premium Data Analyser"
+byline = "Analysis and processing of data from the Xbox network"
+
+[params.actions] # CTAs
+enable = true
+register = "CTA Now!"
+
+# Navigation section
+[params.nav]
+home = "Home"
+services = "Services"
+information = "Information"
+# contact = "Contact Us"
+
+# Services section
+[params.services]
+enable = true
+title = "Services"
+subtitle = "In our network we analyze and process all public data of the Xbox network."
+
+[[params.services.item]]
+weight = "A"
+title = "MyXbox.Deals"
+description = "Our service monitors the marketplaces of Xbox and certified Xbox retailers. End customers can thus be notified of price changes via various options. This way, the best possible price is always guaranteed."
+button_item_info = "Go to Service"
+button_item_link = "https://myxbox.deals"
+
+[[params.services.item]]
+weight = "B"
+title = "XboxDatabase"
+description = "Our database is our core product, because this is where we do our analysis, data mining and processing including history."
+button_item_info = "Go to Service"
+button_item_link = "https://xboxdatabase.com"
+
+[[params.services.item]]
+weight = "C"
+title = "XboxLeaderboard"
+description = "Every user in the Xbox network can make Gamescore with his account. Officially, unfortunately, only a monthly ranking is possible. We therefore provide the unofficial world ranking."
+button_item_info = "Go to Service"
+button_item_link = "https://xboxleaderboard.com"
+
+# information section
+[params.information]
+enable = true
+title = "Information Assembly"
+subtitle = "Computing the conversion of instructions in low-level code to machine code by an assembler."
+description = "This is <strong>Assembly</strong>, a free, fully standards-compliant CSS template designed by <a href=\"http://templated.co\" rel=\"nofollow\">TEMPLATED</a>. The photos in this template are from <a href=\"http://fotogrph.com/\"> Fotogrph</a>. This free template is released under the <a href=\"http://templated.co/license\">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :)"
+button_text = "Call Now"
+
+# Contact section
+[params.contact]
+enable = false
+#   title = "Get In Touch"
+#   message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#   name_placeholder = "Your name"
+#   email_placeholder = "Your email"
+#   email_disclaimer = "We'll never share your email with anyone else."
+#   message_placeholder = "Please enter a message."
+#   button_text = "Submit"
+
+# Footer section
+[params.footer]
+enable = true
+copy = "2018-2022 &copy; MyXbox.Network | All rights reserved"
+twitter = ""
+facebook = ""
+instagram = ""
+
