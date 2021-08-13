@@ -43,7 +43,7 @@ weight = "B"
 title = "XboxDatabase"
 description = "Our database is our core product, because this is where we do our analysis, data mining and processing including history."
 button_item_info = "Go to Service"
-button_item_link = "https://xboxdatabase.com"
+button_item_link = "https://xboxdb.com"
 
 [[params.services.item]]
 weight = "C"
